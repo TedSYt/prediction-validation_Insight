@@ -2,7 +2,8 @@
 
 
 # approach
-My code has  4 sections: 
+My code has  4 sections:
+
 First, read the pipe-delimited data from the txt files by pandas. In order to process large amounts of data, a '''chunksize''' of 1000 is applied for pandas to read the data.
 
 Second, extract the key information from the raw data. This include the time-period of the stock's price, i.e. the longest hour appear in the data. The data is stored appropriatly in different data type. For example, the '''window''' used for iterator and index is stored as intger.
